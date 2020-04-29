@@ -12,6 +12,7 @@ ans. git commit
 
 Q5. how to push your code to repository?
 ans. git push
-git config --global user.email"jbm20123@gmail.com"
-git config --global user.name"jbm20123"
+git config --global user.email "jbm20123@gmail.com"
+git config --global user.name "jbm20123"
 
+ 
