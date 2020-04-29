@@ -1,0 +1,17 @@
+Q1. how to clone a repository?
+ans. git clone https://github.com/jbm20123/java8.git (URL). this is one time activity.
+
+Q2. how to pull code from repository?
+ans. git pull 
+
+Q3. how to intialize a local repository?
+ans. git init
+
+Q4. how to commit code to repository?
+ans. git commit 
+
+Q5. how to push your code to repository?
+ans. git push
+git config --global user.email"jbm20123@gmail.com"
+git config --global user.name"jbm20123"
+
