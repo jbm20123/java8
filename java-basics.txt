@@ -1,0 +1,39 @@
+Q1.how can you create a class in java?
+ans.<class> <identifier>{}
+e.g. 1.to represent student in java
+       class Student{}
+     2.to represent animal in java
+       class Animal{}
+     3.to represent college in java
+       class College{}
+
+Q2.how can you create a variable in java?
+ans.<data type> <identifier>;
+e.g. 1.class Student{
+int age;
+String name;
+String branch;
+String enrollmentNumber;
+}
+
+Q3.how can you create a method in java?
+to represent behaviour or action of object in java.
+<return type> <identifier>(){}
+e.g. 1.void read(){}
+      void write(){}
+      void speak(){}
+
+Summary-
+------
+1.to represent a real world entity (category) in java we should use class
+2.to represent object's property in java we should use variable
+3.to represent object's behaviour/action in java we should use method
+
+
+
+
+
+
+
+
+
