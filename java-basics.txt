@@ -29,6 +29,73 @@ Summary-
 2.to represent object's property in java we should use variable
 3.to represent object's behaviour/action in java we should use method
 
+Q4.how can we create an object of a class?
+ans.<classname> <identifier>=new <classname>();
+e.g. 1.Student stu=new Student();
+     2.Animal animal=new Animal();
+	 3.Sister sister=new Sister();
+	 4.Car car=new Car();
+	 5.College college=new College();
+
+Q5. how can we access members of a class?
+ans.Student stu=new Student();
+    stu.age;
+	stu.name;
+	stu.speak();
+	stu.read();
+	stu.write();
+	
+Q6. if you want to see/print something on console in java then we should use or write below code
+ans.System.out.println(stu.age);
+    system.out.println(stu.name);
+	
+Q7. what is the purpose of main method?
+ans.to verify the members of a class.
+
+Q8. what is the signature of main method?
+ans.public static void main(String[]args){}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
