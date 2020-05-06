@@ -1,0 +1,24 @@
+JDK stands for java development kit.It is a dependent platform
+here the word "DEPENDENT" mean that when we will go to install the JDK it asks for which OS we want to install for e.g. windows,solaris,macos,linux etc
+That means as JDK is dependent platform if it will be independent then it shouldnt ask for os at the time of installation.
+it is responsible to convert the java programs to byte code.
+
+JRE stands for java run environment.it resides inside the JDK file.
+In JRE file javac.exe and java.exe file resides.
+JRE is also a dependent platform.
+
+JVM is java virtual machine.JVM resides inside the JRE file.
+JVM is responsible for translate byte code to machine code.
+it is also a dependent platform that makes the java independent.
+
+Interpreter is called as just-in-time compiler.
+interpreter does three work-:
+1.read the code
+2.convert the byte code to machine code3.execute the code
+the difference between compiler and interpreter is-:
+interpreter read and execute the code line by line while compiler first read the whole codeand execute it in one time
+
+.class file or byte code is independent platform.it is generated when we compile the code in java source file is converted into .class file or byte code
+
+
+

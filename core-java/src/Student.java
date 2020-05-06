@@ -2,7 +2,7 @@
 class Student {
 	int age=16;
 	int id=123;
-	String name="Swarna";
+	String name="vivek";
 	void read() {
 	System.out.println("I am reading a book");
 	}
