@@ -10,7 +10,7 @@ public class Student {
 	System.out.println("I can speak english");
 	}
 	String getName(){
-		return name;
+		return "astha";
 		
 	}
 	void setName(String sname){
@@ -22,8 +22,11 @@ public class Student {
 	return	id=sid;
 	}
 	public static void main(String[]args) {
+		
 		Student student=new Student();
 		System.out.println(student.name);
-		
+		Student stud=new Student();
+		String r=stud.getName();
+	
 	}
 }
