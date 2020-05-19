@@ -1,0 +1,68 @@
+ public static String toUnsignedString(int i, int radix) {
+        return Long.toUnsignedString(toUnsignedLong(i), radix);
+		
+		
+		public static String toUnsignedString(int i) {
+        return Long.toString(toUnsignedLong(i));
+		
+		
+		
+		public static int parseUnsignedInt(String s, int radix)
+                throws NumberFormatException {
+				
+				
+				
+				public static int parseUnsignedInt(String s) throws NumberFormatException {
+        return parseUnsignedInt(s, 10);
+    }
+	
+	
+	
+	 public static int hashCode(int value) {
+        return value;
+    }
+	
+	
+	public static long toUnsignedLong(int x) {
+        return ((long) x) & 0xffffffffL;
+		}
+		
+		public static int divideUnsigned(int dividend, int divisor) {
+        // In lieu of tricky code, for now just use long arithmetic.
+        return (int)(toUnsignedLong(dividend) / toUnsignedLong(divisor));
+    }
+	
+	
+	public static int remainderUnsigned(int dividend, int divisor) {
+        // In lieu of tricky code, for now just use long arithmetic.
+        return (int)(toUnsignedLong(dividend) % toUnsignedLong(divisor));
+		}
+		
+		
+		
+		public static final int BYTES = SIZE / Byte.SIZE;
+
+
+
+public static int sum(int a, int b) {
+        return a + b;
+		
+		
+		public static int max(int a, int b) {
+        return Math.max(a, b);
+		}
+		
+		  public static int min(int a, int b) {
+        return Math.min(a, b);
+    }
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
