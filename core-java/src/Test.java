@@ -1,4 +1,4 @@
-
+import static java.lang.System.out;
 public class Test {
 	public static void main(String[] args) {
 		Teacher teach = new Teacher();
@@ -18,9 +18,7 @@ public class Test {
 	System.out.println(add.hno);
 	System.out.println(add.city);
 	System.out.println(add.state);
-	System.out.println(add.phno);
-
-	}
-	
+	out.println(add.phno);
+    }
 	}
 

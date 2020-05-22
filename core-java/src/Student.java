@@ -10,7 +10,7 @@ public class Student {
 	System.out.println("I can speak english");
 	}
 	String getName(){
-		return "astha";
+		return "aastha";
 		
 	}
 	void setName(String sname){

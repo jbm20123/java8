@@ -1,13 +1,13 @@
 
 public class Teacher {
 	String saveData(int id, String name, int hno, String city, String state, int phno, int age) {
-//		System.out.println(id);
+		System.out.println(id);
 	System.out.println(name);
-//		System.out.println(hno);
-//		System.out.println(city);
+	System.out.println(hno);
+	System.out.println(city);
 	System.out.println(state);
-//		System.out.println(phno);
-//		System.out.println(age);
+	System.out.println(phno);
+	System.out.println(age);
 		return "data saved";
 
 	}

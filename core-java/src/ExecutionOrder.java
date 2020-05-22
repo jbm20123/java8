@@ -1,25 +1,27 @@
 
 public class ExecutionOrder {
-	{
+static	{
 		System.out.println("instance block7");
 	}
-	static{
+	{
 		System.out.println("static block3");
 	}
 	int a=m2();
 	{
 		System.out.println("instance block6");
 	}
-	int b;
-	static int c=m3();
-	static int d=60;
+	int b=22;
+	static int c=m4();
+	static int d=m3();
+	int e;
 	{
 		System.out.println("instance block1");
-		System.out.println(a);
+		System.out.println(b);
 	}
 	{
 		System.out.println("instance block2");
 		System.out.println(b);
+		System.out.println(a);
 	}
 	static {
 		System.out.println("static block1");
@@ -41,8 +43,8 @@ public class ExecutionOrder {
 	}
 
 	static int m3() {
-		System.out.println("swarna gadhi");
-		System.out.println(c);
+		System.out.println("m3");
+		System.out.println(d);
 		return 20;
 	}
 	static {
