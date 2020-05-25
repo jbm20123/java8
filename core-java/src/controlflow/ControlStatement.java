@@ -10,6 +10,8 @@ public static void main(String[]args) {
 		System.out.println("prateeksha kapoor");
 	System.out.println("swarna kapoor");
 	}
+	if(true)
+		int a=10;
 	
 }
 }
